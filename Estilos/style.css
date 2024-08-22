@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*  Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #5f2c82 ;
+}
+section#login{
+    background-color: white;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 250px;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+}
+img{
+    width: 250px;
+    border-radius: 10px;
+}
+div#esqueci{
+    border: 1px solid black;
+    width: 150px;
+    text-align: center;
+}
+div#esqueci:hover{
+    background-color: #49a09d;
+}
