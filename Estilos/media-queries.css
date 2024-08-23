@@ -14,6 +14,7 @@ Grandes telas: 1200px e acima */
     }
     section#login{
         width: 80vw;
+        height: 350px;
     }
     div#imagem{
         float: left;

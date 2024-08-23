@@ -25,11 +25,11 @@ section#login{
     position:absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     border-radius: 10px;
     width: 250px;
-    height: 500px;
+    height: 510px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.568);
+    transform: translate(-50%, -50%);
 }
 h1{
     text-align: center;
@@ -50,4 +50,80 @@ div#imagem{
 div#formulario{
     padding: 10px;
     display: block;
+}
+div.campo{
+    background-color: #5f2c82;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+div.campo label{
+    display: none;
+}
+input[type=email]{
+    width: calc(100% - 47px);
+    height: 89%;
+    background-color:  #62d3cf;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    transform: translateY(-5px);
+}
+div.campo input:focus-within{
+    background-color: white;
+}
+input[type=password]{
+    width: calc(100% - 47px);
+    height: 89%;
+    background-color:  #62d3cf;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+    transform: translateY(-5px);
+}
+input[type=submit]{
+    display: block;
+    font-size: 1.1em;
+    width: 100%;
+    height: 35px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+input[type=submit]:hover{
+    background-color: #5bc7c3;
+    cursor: pointer;
+}
+a.botao{
+    display: block;
+    text-align: center;
+    background-color: white;
+    margin-top: 5px;
+    border-radius: 10px;
+    height: 35px;
+    text-decoration: none;
+    color:  #49a09d;
+    border: 1px solid  #49a09d;
+    font-size: 1.1em;
+}
+a.botao:hover{
+    background-color: #5bc7c3;
+    color: white;
+}
+a span.material-symbols-outlined{
+    font-size: 1.1em;
+    padding-top: 5px;
+    margin-left: 5px;
+}
+div.campo span.material-symbols-outlined{
+    background-color: #5f2c82;
+    color: white;
+    font-size: 26px;
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    padding-left: 7px;
+    border-radius: 10px 0px 0px 10px;
 }
