@@ -24,17 +24,23 @@ Grandes telas: 1200px e acima */
         float: right;
         width: 60%;
     }
+    div#formulario h1{
+        font-size: 40px;
+    }
+    div#formulario p{
+        font-size: 20px;
+    }
 }
 @media screen and (min-width: 992px) {
     section#login{
         width: 990px;
     }
     div#imagem{
-        float: left;
+        float: right;
         width: 50%;
     }
     div#formulario{
-        float: right;
+        float: left;
         width: 50%;
     }
 }
