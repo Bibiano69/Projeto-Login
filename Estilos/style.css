@@ -44,6 +44,8 @@ div#imagem{
     background-color: purple;
     height: 200px;
     display: block;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 div#formulario{
     padding: 10px;

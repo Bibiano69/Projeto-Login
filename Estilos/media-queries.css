@@ -19,6 +19,7 @@ Grandes telas: 1200px e acima */
         float: left;
         width: 40%;
         height: 100%;
+        border-radius: 10px 0px 0px 10px;
     }
     div#formulario{
         float: right;
@@ -38,6 +39,7 @@ Grandes telas: 1200px e acima */
     div#imagem{
         float: right;
         width: 50%;
+        border-radius: 0px 10px 10px 0px;
     }
     div#formulario{
         float: left;
